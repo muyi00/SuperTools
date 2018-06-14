@@ -14,7 +14,8 @@ namespace SuperTools
         {
             InitializeComponent();
             loadForm(this.panel1,new FilterLogForm());
-            loadForm(this.panel2, new PictureName());
+            loadForm(this.panel2, new CreateRecordForm());
+            loadForm(this.panel3, new PictureName());
         }
 
 
